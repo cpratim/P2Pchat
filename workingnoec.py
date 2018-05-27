@@ -1,4 +1,4 @@
-from config import IPADRESS, PORT
+from config import IPADRESS, PORT, PASSPHRASE, YOURIP
 from flask import Flask, render_template, request
 from threading import Thread
 import socket
@@ -40,7 +40,7 @@ class Client():
 class Server():
 
     def __init__(self):
-        self.host = socket.gethostbyname(socket.gethostname())
+        self.host = YOURIP
         self.port = PORT
         self.sock = socket.socket()
         self.sock.bind((self.host, self.port))
