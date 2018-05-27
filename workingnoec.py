@@ -1,4 +1,4 @@
-from config import IPADRESS, PORT, PASSPHRASE
+from config import IPADRESS, PORT
 from flask import Flask, render_template, request
 from threading import Thread
 import socket
