@@ -1,6 +1,6 @@
 from Crypto.Cipher import AES
 from Crypto import Random
-from config import IPADRESS, PORT, PASSPHRASE
+from config import IPADRESS, PORT, PASSPHRASE, YOURIP
 from threading import Thread
 import socket
 import random
