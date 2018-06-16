@@ -1,3 +1,2 @@
 # peertopeerchat
-This is an easy way to have a peer to peer chat with anyone anonymously.
-In order to chat with the other person you must know their ip and they yours.
+This is an easy way to have a peer to peer chat with anyone as long as you know their ip address and you know theirs.
