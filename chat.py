@@ -72,7 +72,7 @@ class Client():
 class Server():
 
     def __init__(self):
-        self.host = socket.gethostbyname(socket.gethostname())
+        self.host = YOURIP
         self.port = PORT
         self.encryption = Encryption(PASSPHRASE)
         self.sock = socket.socket()
